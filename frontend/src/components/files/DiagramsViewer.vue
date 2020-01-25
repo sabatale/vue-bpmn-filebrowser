@@ -1,21 +1,18 @@
 <template>
-<div class="vue-bpmn-diagram-container">
-    <br />Click and hold the mouse to move the diagram. Use CTRL+Scroll to zoom.<br />
+  <div class="vue-bpmn-diagram-container">
+    <br />Click and hold the mouse to move the diagram. Use CTRL+Scroll to
+    zoom.<br />
     <Bpmn />
-</div>
+  </div>
 </template>
 
 <script>
-  import Bpmn from '@/components/files/Bpmn';
+import Bpmn from "@/components/files/Bpmn";
 
-  export default {
-    components: {
-      Bpmn
-    },
-    methods: {
-
-    }
-  };
+export default {
+  components: {
+    Bpmn
+  },
+  methods: {}
+};
 </script>
-
-

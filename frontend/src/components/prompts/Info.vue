@@ -7,7 +7,7 @@
     <div class="card-content">
       <p v-if="selected.length > 1">{{ $t('prompts.filesSelected', { count: selected.length }) }}</p>
 
-      <p v-if="selected.length < 2"><strong>{{ $t('prompts.displayName') }}</strong> {{ name }}</p>
+      <p class="break-word" v-if="selected.length < 2"><strong>{{ $t('prompts.displayName') }}</strong> {{ name }}</p>
       <p v-if="!dir || selected.length > 1"><strong>{{ $t('prompts.size') }}:</strong> <span id="content_length"></span> {{ humanSize }}</p>
       <p v-if="selected.length < 2"><strong>{{ $t('prompts.lastModified') }}:</strong> {{ humanTime }}</p>
 
@@ -88,6 +88,7 @@ export default {
 
       try {
         const hash = await api.checksum(link, algo)
+        // eslint-disable-next-line
         event.target.innerHTML = hash
       } catch (e) {
         this.$showError(e)
