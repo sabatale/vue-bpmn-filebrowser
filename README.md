@@ -21,6 +21,16 @@ You can click and hold the mouse in order to move the diagram around.
 
 You can also zoom with CTRL + Scroll!
 
+## Installation
+
+Simply run filebrowser.exe to start the local server.
+
+For developers:
+
+1) Run npm install from the frontend directory;
+2) Make your changes;
+3) Run "build_me_production.bat" to build the Productive version.
+
 ## To do
 
 Add bpmn-js extensions.
