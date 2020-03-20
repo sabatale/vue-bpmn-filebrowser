@@ -27,7 +27,7 @@ require (
 	github.com/tomasen/realip v0.0.0-20180522021738-f0c99a92ddce
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
-	go.etcd.io/bbolt v1.3.3
+	go.etcd.io/bbolt v1.3.4
 	golang.org/x/crypto v0.0.0-20190510104115-cbcb75029529
 	golang.org/x/sys v0.0.0-20190509141414-a5b02f93d862 // indirect
 	golang.org/x/text v0.3.2 // indirect
