@@ -19,7 +19,7 @@ require (
 	github.com/nwaples/rardecode v1.0.0 // indirect
 	github.com/pelletier/go-toml v1.6.0
 	github.com/pierrec/lz4 v0.0.0-20190131084431-473cd7ce01a1 // indirect
-	github.com/spf13/afero v1.2.2
+	github.com/spf13/afero v1.3.0
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5
@@ -28,7 +28,7 @@ require (
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
 	go.etcd.io/bbolt v1.3.3
-	golang.org/x/crypto v0.0.0-20190510104115-cbcb75029529
+	golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586
 	golang.org/x/sys v0.0.0-20190509141414-a5b02f93d862 // indirect
 	golang.org/x/text v0.3.2 // indirect
 	google.golang.org/appengine v1.5.0 // indirect
